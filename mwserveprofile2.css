@@ -1,0 +1,639 @@
+/*---templates----*/
+.header h1
+{
+    margin-top: -10px;
+    font-family:fantasy;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 12px 12px red;
+    
+}
+@media screen and (max-width:1000px ){
+	.header h1{
+            margin-left: 0px;
+	width:480px;font-size:80px;
+	}
+}
+#logo
+        {
+           
+            height: 85px;background: linear-gradient(to top right,black,goldenrod,black);
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+.logo
+        {
+           
+            margin-left: 100px;
+            font-size: 45px;
+            font-family: serif;
+            color: lime;
+            padding-top: 50px;
+            background-color: ;
+            padding: 10px;
+            margin-top: 10px;
+        }
+@media screen and (max-width:1000px ){
+	.logo{
+            margin-left: 0px;
+	width:480px;
+	}
+}
+#logo ul
+        {
+
+            margin-top: 0px;
+            background-color: red;
+            width: 380px;
+        }
+@media screen and (max-width:1000px ){
+	ul{
+            margin-left: 0px;
+	font-size:18px;
+	width:180px;
+	}
+}
+.text
+{
+    margin-left: 400px;
+    margin-top: -70px;
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+}
+@media screen and (max-width:1000px ){
+	.text{
+            margin-left: 190px;
+		margin-top:-30px;
+	
+	}
+}
+.text .fa
+{
+    color: lime;
+}
+.main img
+{
+   
+}
+@media screen and (max-width:1000px ){
+	.main img{
+            margin-left: 80px;
+	
+	}
+}
+.main 
+{
+    text-align: center;
+    margin-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	.main{
+            margin-left: 0px;
+	           width:480px;
+	}
+}
+.contact-box
+{
+    display: inline-block;
+
+    margin-left: 0px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0px;
+
+}
+@media screen and (max-width:1000px ){
+	.contact-box{
+	width:150px;
+	}
+}
+.contact-box .fa
+{
+    font-size: 20px;
+    background: linear-gradient(to top right,black,goldenrod,black);
+    border-radius: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    
+}
+
+#intro
+{
+            height: 85px;
+            background: linear-gradient(to top right,black,goldenrod,black);
+            font-size: 30px;
+            font-family: sans-serif;
+}
+@media screen and (max-width:400px ){
+	#intro, #logo{
+            width:480px;
+	
+	}
+}
+#intro img
+{
+   width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-left: 450px;
+    margin-top: 0px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
+}
+@media screen and (max-width:1000px ){
+	#intro img{
+            margin-left: 200px;
+	
+	}
+}
+#index
+{
+    margin-top: 50px;
+    height: 800px;
+    
+}
+#index ul
+{
+    font-family:fantasy;
+    background-color: transparent;
+}
+.intro-content
+{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	.intro-content{
+            margin-left: 10px;
+	width:480px;
+	}
+}
+#about
+{
+    height: 1000px;
+}
+.intro-content-about
+{
+	margin-top:40px;
+    margin-left: 100px;
+    font-size: 16px;
+    width: 800px;
+    height: 300px;
+}
+@media screen and (max-width:1000px ){
+	.intro-content-about{
+            margin-left: 10px;
+	width:480px;
+	}
+}
+.intro-content-why
+{
+	margin-left: 100px;
+    font-size: 16px;
+    width: 800px;
+    margin-top:10px;
+}
+@media screen and (max-width:1000px ){
+	.intro-content-why{
+            margin-left: 10px;
+	width:480px;
+	}
+}
+.intro-content-policy
+{
+	margin-left: 100px;
+    font-size: 16px;
+    width: 800px;
+    margin-top:10px;
+}
+@media screen and (max-width:1000px ){
+	.intro-content-policy{
+            margin-left: 10px;
+	width:480px;
+	}
+}
+.intro-content-policy p
+{
+    font-size: 14px;
+    margin-top: -10px;
+}
+.intro-content-clients
+{
+	margin-left: 100px;
+    font-size: 16px;
+}
+@media screen and (max-width:1000px ){
+	.intro-content-clients{
+            margin-left: -210px;
+	width:480px;
+      margin-top:100px;
+	}
+}
+.intro-content-test
+{
+	margin-left: 10px;
+    font-size: 16px;
+}
+@media screen and (max-width:1000px ){
+	.intro-content-test{
+            margin-left: 10px;
+	width:480px;
+	}
+}
+.introduction
+{
+    
+    margin-left: 100px;
+    width: 800px;
+    background-color: lime;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    font-family:sans-serif;
+    border-style: double;
+    margin-top: 20px;
+}
+@media screen and (max-width:1000px ){
+	.introduction{
+            margin-left: 10px;
+	width:470px; margin-top: 60px;
+	}
+}
+.introduction1
+{
+    
+    margin-left: 200px;
+    width: 600px;
+    background-color: red;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    border-style: double;
+    margin-top: 20px;
+}
+@media screen and (max-width:1000px ){
+	.introduction1{
+            margin-left: 30px;
+	width:430px;
+	}
+}
+.introduction i
+{
+	font-size: 40px;
+    padding: 20px;
+    border-radius: 100%;
+    margin-top: -60px;
+    background-color: white;
+    margin-left: -30px;
+}
+.introduction1 i
+{
+	font-size: 40px;
+    padding: 20px;
+    border-radius: 100%;
+    margin-top: -60px;
+    background-color: white;
+    margin-left: 530px;
+}
+@media screen and (max-width:1000px ){
+	.introduction1 i{
+            margin-left: 330px;
+	
+	}
+}
+#intro h6
+{
+    text-align: center;
+    background-color:cornflowerblue;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+
+
+/*-------------Services------------*/
+#service
+{
+    padding: 10px 0;
+    background: ;
+    text-align: center;
+    margin-left:0px;
+    
+}
+
+.single-service
+{
+    margin: 3px;
+    display: inline-block;
+    float: left;
+    width:200px;
+    background-color: black;
+    transition: 0.5s;
+    padding: 23px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.single-service:hover
+{
+    box-shadow: 0 5px 20px #333;
+}
+
+
+
+
+
+.single-service{display: inline-block!important;}
+
+@media screen and (max-width:1000px ){
+	.single-service{
+        width: 200px;
+        margin-left: 10px;margin-top:50px;
+        
+	}
+}
+
+@media screen and (max-width:400px ){
+	.single-service{
+		display: block;
+		float: left;
+		margin:2px;
+		font-size:2em;
+		transition:color linear 0,15s;
+	}
+	a. .single-service:link,
+	a. .single-service:visited,
+	a. .single-service:hover,
+	a. .single-service:active {
+		text-decoration:none;
+		color:#fff;
+		}
+	}
+
+
+
+
+
+
+
+.service-head
+{
+    background: linear-gradient(to top right,black,lime,yellow,red);
+    display: inline;
+    float: left;
+    padding: 5px 5px;
+    width: 100%;
+    text-align: center;
+}
+.service-head h2
+{
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    
+}
+.service-head p
+{
+    color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+.services-content
+{
+	margin-left: 60px;font-size: 16px;width: 900px;height: 600px;
+}
+@media screen and (max-width:1000px ){
+	.services-content{
+        width: 480px;
+        margin-left: 10px;
+        
+	}
+}
+.service-content
+{
+    color: white;
+    display: inline;
+    text-align: left;
+    width: 100%;
+    
+
+
+}
+ul li:last-child
+{
+    border: none;
+    text-align: left;
+
+}
+.service-content ul li
+{
+    border-bottom: 5px solid #fff;
+    padding: 15px 10px;
+    list-style: none;
+    text-align: left;
+    margin-left: -40px;
+    width: 170px;
+
+}
+
+
+
+
+/*---title----*/
+
+.titles
+{
+    background: linear-gradient(to top right,black,goldenrod,black);
+    height: 400px;
+    margin-top: 300px;
+    
+}
+.titles img
+{
+    background-image:url(et-lion1.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: full image;
+    height: 320px;
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.title h1
+{
+    margin-top: 100px;
+}
+.title .fa
+{
+    font-size: 60px;
+    background: linear-gradient(to top right,black,goldenrod,black);
+    border-radius: 10%;
+    padding: 20px;
+    margin-top: 50px;
+    color: white;
+    
+}
+.title-box
+{
+    display: inline-block;
+    margin-left: 0px;
+    padding: 10px;
+    width: 200px;
+    text-align: left;
+}
+@media screen and (max-width:1000px ){
+	.title-box{
+            margin-left: 10px;
+	width:200px;
+	}
+}
+dt
+{
+	background: linear-gradient(to top right,black,goldenrod,black);
+	padding:10px;
+	width:400px;
+    font-size: 12px;
+	margin-top:5px;
+	font-weight:lighter;
+    color: white;
+}
+
+
+.right-panel
+{
+    margin-left: 0px;
+    width: 340px;
+    background: linear-gradient(to top right,black,goldenrod,black);
+    margin-top: -600px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.title-box img
+{
+	width:100px;
+	height:100px;
+	margin-left:0px;
+    
+}
+@media screen and (max-width:1000px ){
+	.title-box img{
+            margin-left: 10px;
+	width:140px;
+	}
+}
+.title-img
+{
+    margin-left: 10px;
+}
+.title-img .title-box
+{
+    display: inline-block;
+
+    margin-left: 0px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	.title-img .title-box{
+            margin-left: 10px;
+	width:100px;
+	}
+}
+.title-img p
+{
+    font-size: 14px;
+}
+
+
+/*----testimonials-------*/
+.testimonials
+{
+    margin-left: 100px;
+    margin-top: 50px;
+    height: 400px;
+}
+.testimonial
+{
+    display: inline-block;
+    width: 250px;
+    padding: 10px;
+}
+.testimonial:hover
+{
+    background: linear-gradient(to top right,black,goldenrod,black);
+    color: white;
+}
+.testimonials img
+{
+    width: 200px;
+    height: 180px;
+    margin-left: 20px;
+    
+}
+
+@media screen and (max-width:1000px ){
+	.testimonial{
+            margin-left: 0px;
+	width:480px;
+	}
+}
+
+/*-------contacts-------*/
+
+.contacts
+{
+    margin-left: 100px;
+}
+
+
+.contact-box
+{
+    display: inline-block;
+
+    margin-left: 0px;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0px;
+
+}
+@media screen and (max-width:1000px ){
+	.contact-box{
+		width: 140px;
+
+	}
+}
+
+.contacts .fa
+{
+    font-size: 60px;
+    background: linear-gradient(to top right,black,goldenrod,black);
+    border-radius: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    color: white;
+    
+}
